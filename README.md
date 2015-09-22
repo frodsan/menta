@@ -19,12 +19,12 @@ Usage
 var Menta = require("menta");
 
 Menta.getEnvironment()
-# => "development"
+// => "development"
 
-Menta.isDevelopment() # => true
-Menta.isTest()        # => false
-Menta.isStaging()     # => false
-Menta.isProduction()  # => false
+Menta.isDevelopment() // => true
+Menta.isTest()        // => false
+Menta.isStaging()     // => false
+Menta.isProduction()  // => false
 ```
 
 Installation
